@@ -145,7 +145,8 @@ import Data.Typeable ()
 import Data.IntMap.Strict (IntMap)
 import Data.IntSet (IntSet)
 import Data.MultiSet (MultiSet)
-import qualified Data.IntMap.Strict as Map
+import qualified Data.IntMap.Strict as Map hiding (showTreeWith)
+import qualified Data.IntMap.Internal.Debug as Map
 import qualified Data.IntSet as Set
 import qualified Data.List as List
 import qualified Data.MultiSet as MultiSet

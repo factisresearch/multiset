@@ -151,7 +151,8 @@ import Data.Typeable ()
 import qualified Data.Foldable as Foldable
 import Data.Map.Strict (Map)
 import Data.Set (Set)
-import qualified Data.Map.Strict as Map
+import qualified Data.Map.Strict as Map hiding (showTreeWith)
+import qualified Data.Map.Internal.Debug as Map
 import qualified Data.Set as Set
 import qualified Data.List as List
 
